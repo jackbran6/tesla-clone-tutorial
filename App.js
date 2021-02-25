@@ -30,9 +30,15 @@ const styles = StyleSheet.create({
   },
   titles: {
     marginTop: "30%",
-    marginLeft: "50%",
+    width: "100%",
     alignItems: "center",
   },
-  titles: {},
-  subtitle: {},
+  title: {
+    fontSize: 40,
+    fontWeight: "500",
+  },
+  subtitle: {
+    fontSize: 16,
+    color: "#5c5e62",
+  },
 });
