@@ -1,9 +1,9 @@
-import { Stylesheet, Dimensions } from "react-native";
+import { StyleSheet } from "react-native";
 
-const styles = Stylesheet.create({
+const styles = StyleSheet.create({
   carContainer: {
     width: "100%",
-    height: Dimensions.get("window").height,
+    height: "100%",
   },
   titles: {
     marginTop: "30%",

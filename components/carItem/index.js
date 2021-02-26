@@ -6,7 +6,7 @@ const carItem = (props) => {
   return (
     <View style={styles.carContainer}>
       <ImageBackground
-        source={require("../../assets/images/ModelX.jpeg")}
+        source={require("../../assets/images/ModelS.jpeg")}
         style={styles.image}
       />
       <View style={styles.titles}>
